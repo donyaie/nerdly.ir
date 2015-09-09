@@ -1,0 +1,195 @@
+/* font  */
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+@font-face {
+    font-family: 'BTitrBold';
+    src:url('../fonts/BTitrBold.eot?#') format('eot'),
+    url('../fonts/BTitrBold.woff') format('woff'),
+    url('../fonts/BTitrBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'BZar';
+    src:url('../fonts/BZar.eot?#') format('eot'),
+    url('../fonts/BZar.woff') format('woff'),
+    url('../fonts/BZar.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src:url('../fonts/BYekan.eot?#') format('eot'),
+    url('../fonts/BYekan.woff') format('woff'),
+    url('../fonts/BYekan.ttf') format('truetype');
+}
+
+/* end font */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+a:link {
+    text-decoration: none;
+}
+/* end Links */
+
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6	{
+    font-family: "BYekan","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+//background-color: #333;
+    color: #111;
+    background-color: #ECF0F1 ;
+    text-align: center;
+    /*  text-shadow: 0 1px 3px rgba(255,255,255,.5);*/
+    direction: rtl;
+    font-family: "BYekan","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#top-nav{
+
+    font-size: 16px;
+    background-color: #34495E;
+}
+
+#top-nav li a{
+    color:#ffffff;
+}
+
+#top-nav li a:hover{
+    border-bottom: solid 1px #ff0000;
+
+}
+#top-nav .logo{
+    border-radius: 50%;
+    background-color: #27AE60 ;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 15px;
+    color: #fff;
+    height: 50px;
+    padding: 15px 7px;
+    font-size: 18px;
+    line-height: 15px;
+
+}
+.active_menu{
+    border-bottom: solid 1px #ff0000;
+}
+
+#top-nav .logo:hover{
+    background-color: #27AE60  ;
+
+}
+
+#top-nav .dropdown-menu li a{
+    color:#fff;
+
+}
+#top-nav .dropdown-menu li a:hover{
+    background-color:#202020 ;
+
+}
+
+#top-nav .dropdown-menu{
+    background-color:#202020;
+
+}
+
+#menu_header {
+    width: 100%;
+    z-index: 100;
+    padding-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+}
+
+#menu_header h1{
+    width: 100%;
+    z-index: 100;
+    right: 0px;
+    left: 0px;
+    font-size: 100px;
+    font-size: 10vw;
+    position: absolute;
+    text-shadow: 5px 5px 5px #888;
+    margin-right: auto;
+    margin-left: auto;
+    color: #EEE;
+    margin-top: 50px;
+}
+
+
+
+
+.row{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.gap{
+
+    height:100px;
+}
+
+.social-buttons{
+
+}
+
+.social-buttons ul{
+    list-style: outside none none;
+   width: 100%;
+}
+
+.social-buttons li{
+
+   display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.social-buttons li span{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+   line-height: 40px;
+    outline: 0px none;
+    color: #FFF;
+    background-color: #222;
+    transition: all 0.3s ease 0s;
+}
+
+.social-buttons li span:hover{
+    
+    background-color: #666;
+}
+
+
+footer{
+ 
+    min-height: 100px; 
+
+}

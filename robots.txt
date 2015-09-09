@@ -1,0 +1,64 @@
+User-agent: *
+Disallow:
+
+User-Agent: Googlebot
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: Googlebot-Mobile
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: Googlebot-Image
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: Mediapartners-Google
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: msnbot
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: Googlebot
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: Googlebot-Mobile
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: Googlebot-Image
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: Mediapartners-Google
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: Adsbot-Google
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: msnbot
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+User-Agent: msnbot-media
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+
+Sitemap: http://www.nerdly.ir/sitemap.xml
